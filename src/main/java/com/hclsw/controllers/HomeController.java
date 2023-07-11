@@ -9,12 +9,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class HomeController {
 
+//
+//    @GetMapping
+//    public String testing() {
+//
+//        return "Welcome to HCL Software Hackathon";
+//
+//    }
 
-    @GetMapping
-    public String testing() {
-
-        return "Welcome to HCL Software Hackathon";
-
+   // @GetMapping("/index")
+    public String welcome() {
+        System.out.println("index");
+        return "index";
     }
 
 }
