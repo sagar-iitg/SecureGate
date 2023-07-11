@@ -13,5 +13,6 @@ SecureGate: Fortifying Backend Systems with REST API Authentication and Authoriz
 ## Resources
 
 [Medium link] (https://medium.com/@bcarunmail/securing-rest-api-using-keycloak-and-spring-oauth2-6ddf3a1efcc2)
+
 [Docker link](https://www.keycloak.org/getting-started/getting-started-docker)
 
