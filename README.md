@@ -10,6 +10,16 @@ SecureGate: Fortifying Backend Systems with REST API Authentication and Authoriz
 ```
 
 
+
+
+## How to run this application using docker-compose 
+
+```
+1. docker-compose up -d 
+2. docker-compose down --remove-orphans
+```
+
+
 ## Resources
 
 [Medium link] (https://medium.com/@bcarunmail/securing-rest-api-using-keycloak-and-spring-oauth2-6ddf3a1efcc2)
