@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
 
-  ecom:
+  securegate:
     #build: ./app/Dockerfile
     build: .
     #image: "sagarkumar99/foodapp:latest"
