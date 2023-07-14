@@ -24,6 +24,7 @@ public class OAuth2ResourceServerSecurityConfiguration {
 	@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 		http
+				.antMatcher("/test")
 				.authorizeHttpRequests((authorize) -> authorize
 						.anyRequest().authenticated()
 				)
