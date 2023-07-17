@@ -19,6 +19,15 @@ SecureGate: Fortifying Backend Systems with REST API Authentication and Authoriz
 2. docker-compose down --remove-orphans
 ```
 
+## Keycloak
+
+#### How to start keycloack
+
+```
+kc.bat start-dev --http-port=8082
+```
+
+
 
 ## Resources
 
