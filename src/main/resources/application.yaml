@@ -4,8 +4,8 @@ spring:
     active: dev
 
 keycloak:
-  realm: springBootAppReaml
+  realm: hclswHackathon2023
   auth-server-url: http://localhost:8080
-  resource: my_spring_boot_client
+  resource: secure_gate
   public-client: true
   bearer-only: true
