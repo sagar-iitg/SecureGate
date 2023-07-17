@@ -14,14 +14,14 @@ import org.springframework.security.oauth2.server.resource.authentication.JwtGra
 import org.springframework.security.web.SecurityFilterChain;
 
 
-@Configuration
-@EnableWebSecurity
+/*@Configuration
+@EnableWebSecurity*/
 public class OAuth2ResourceServerSecurityConfiguration {
 
-	@Value("${spring.security.oauth2.resourceserver.jwt.jwk-set-uri}")
-	String jwkSetUri;
+	/*@Value("${spring.security.oauth2.resourceserver.jwt.jwk-set-uri}")
+	String jwkSetUri;*/
 
-	@Bean
+	/*@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 		http
 				.antMatcher("/test")
@@ -35,7 +35,7 @@ public class OAuth2ResourceServerSecurityConfiguration {
 	@Bean
 	JwtDecoder jwtDecoder() {
 		return NimbusJwtDecoder.withJwkSetUri(this.jwkSetUri).build();
-	}
+	}*/
 
 	/*@Bean
 	public JwtAuthenticationConverter jwtAuthenticationConverter() {

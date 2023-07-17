@@ -2,10 +2,10 @@
 spring:
   profiles:
     active: dev
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          jwk-set-uri: http://localhost:8080/realms/springBootAppReaml/protocol/openid-connect/certs
-          issuer-uri: http://localhost:8080/realms/springBootAppReaml
 
+keycloak:
+  realm: springBootAppReaml
+  auth-server-url: http://localhost:8080
+  resource: my_spring_boot_client
+  public-client: true
+  bearer-only: true

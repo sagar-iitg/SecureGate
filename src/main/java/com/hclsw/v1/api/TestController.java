@@ -16,15 +16,13 @@ import javax.annotation.security.RolesAllowed;
 public class TestController {
 
     @GetMapping("/user1")
-    public String index(@AuthenticationPrincipal Jwt jwt) {
-        log.info("jwt token: ", jwt.getClaims());
-        return String.format("Hello, %s!", jwt.getClaimAsString("preferred_username"));
+    @RolesAllowed("admin")
+    public String testing1(){
+        return "success for user 1";
     }
 
     @GetMapping("/user2")
-   // @PreAuthorize("hasAuthority(super_admin)")
-    public String premium(@AuthenticationPrincipal Jwt jwt) {
-        log.info("jwt token: ", jwt.getClaims());
-        return String.format("Hello, %s!", jwt.getClaimAsString("preferred_username"));
+    public String testing2(){
+        return "success for user 2";
     }
 }
