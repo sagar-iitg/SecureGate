@@ -11,7 +11,7 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 echo "Cloning from github"
-                git url:'https://github.com/sagar-iitg/SecureGate.git', branch:'dev'
+                git url:'https://github.com/sagar-iitg/SecureGate.git', branch:'pro'
                 
             }
         }    
