@@ -25,6 +25,8 @@ SecureGate: Fortifying Backend Systems with REST API Authentication and Authoriz
 
 ```
 kc.bat start-dev --http-port=8082
+docker run -d --name keycloak -p 8443:8443 sagarkumar99/keycloak
+
 ```
 
 
