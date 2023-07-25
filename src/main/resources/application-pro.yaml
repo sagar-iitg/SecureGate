@@ -28,4 +28,4 @@ spring:
       password: 123
       
 keycloak:
-  auth-server-url: https://52.205.251.144:8443
+  auth-server-url: https://localhost:8443
